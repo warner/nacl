@@ -15,3 +15,4 @@ extern std::string crypto_stream_xor(const std::string &,const std::string &,con
 extern std::string crypto_sign(const std::string &,const std::string &);
 extern std::string crypto_sign_open(const std::string &,const std::string &);
 extern std::string crypto_sign_keypair(std::string *);
+extern std::string crypto_sign_publickey(const std::string &, std::string *);

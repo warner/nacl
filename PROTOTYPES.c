@@ -24,3 +24,4 @@ extern int crypto_box_open_afternm(unsigned char *,const unsigned char *,unsigne
 extern int crypto_sign(unsigned char *,unsigned long long *,const unsigned char *,unsigned long long,const unsigned char *);
 extern int crypto_sign_open(unsigned char *,unsigned long long *,const unsigned char *,unsigned long long,const unsigned char *);
 extern int crypto_sign_keypair(unsigned char *,unsigned char *);
+extern int crypto_sign_publickey(unsigned char *,unsigned char *,unsigned char *);
